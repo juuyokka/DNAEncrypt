@@ -1,0 +1,17 @@
+{
+  "name": "dnaencrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "author": "juuyokka",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-immutable": "^5.0.0",
+    "typescript": "^3.2.1"
+  }
+}

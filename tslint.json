@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-immutable"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+
+        "curly": [true, "as-needed"],
+        "quotemark": [true, "single"],
+        "indent": [true, "tabs", 4],
+        "semicolon": [true, "never"],
+        "only-arrow-functions": true,
+        "arrow-parens": [true, "ban-single-arg-parens"],
+        
+        "no-var-keyword": true,
+        "no-let": true,
+        "no-loop-statement": true
+    },
+    "rulesDirectory": []
+}
